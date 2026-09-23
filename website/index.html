@@ -1,107 +1,106 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+ 
     <title>Abu Bobby Ibrahim</title>
-
+ 
     <!-- Font Awesome Icons -->
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     >
-
+ 
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
+ 
         body {
             min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-
+ 
             background: #ffffff;
             color: #111111;
-
+ 
             font-family: Arial, Helvetica, sans-serif;
         }
-
+ 
         .container {
             text-align: center;
         }
-
+ 
         h1 {
             font-size: 42px;
             font-weight: 700;
             margin-bottom: 35px;
         }
-
+ 
         .social-links {
             display: flex;
             justify-content: center;
             gap: 25px;
         }
-
+ 
         .social-links a {
             width: 60px;
             height: 60px;
-
+ 
             display: flex;
             align-items: center;
             justify-content: center;
-
+ 
             border: 1px solid #ddd;
             border-radius: 50%;
-
+ 
             background: #fff;
             color: #111;
-
+ 
             text-decoration: none;
             font-size: 25px;
-
+ 
             animation: float 3s ease-in-out infinite;
-
+ 
             transition: all 0.3s ease;
         }
-
+ 
         /* Different floating timing for each icon */
         .social-links a:nth-child(1) {
             animation-delay: 0s;
         }
-
+ 
         .social-links a:nth-child(2) {
             animation-delay: 0.4s;
         }
-
+ 
         .social-links a:nth-child(3) {
             animation-delay: 0.8s;
         }
-
+ 
         .social-links a:nth-child(4) {
             animation-delay: 1.2s;
         }
-
+ 
         /* Floating animation */
         @keyframes float {
             0% {
                 transform: translateY(0);
             }
-
+ 
             50% {
                 transform: translateY(-12px);
             }
-
+ 
             100% {
                 transform: translateY(0);
             }
         }
-
+ 
         /* Hover effect */
         .social-links a:hover {
             background: #111;
@@ -109,16 +108,16 @@
             transform: translateY(-15px) scale(1.1);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
         }
-
+ 
         @media (max-width: 500px) {
             h1 {
                 font-size: 30px;
             }
-
+ 
             .social-links {
                 gap: 15px;
             }
-
+ 
             .social-links a {
                 width: 52px;
                 height: 52px;
@@ -127,15 +126,15 @@
         }
     </style>
 </head>
-
+ 
 <body>
-
+ 
     <div class="container">
-
+ 
         <h1>Abu Bobby Ibrahim</h1>
-
+ 
         <div class="social-links">
-
+ 
             <!-- GitHub -->
             <a
                 href="https://github.com/Ozort"
@@ -145,7 +144,7 @@
             >
                 <i class="fa-brands fa-github"></i>
             </a>
-
+ 
             <!-- LinkedIn -->
             <a
                 href="https://www.linkedin.com/in/bobby-abu/"
@@ -155,7 +154,7 @@
             >
                 <i class="fa-brands fa-linkedin-in"></i>
             </a>
-
+ 
             <!-- X -->
             <a
                 href="https://x.com/OZORTX"
@@ -165,7 +164,7 @@
             >
                 <i class="fa-brands fa-x-twitter"></i>
             </a>
-
+ 
             <!-- Medium -->
             <a
                 href="https://medium.com/@ozort"
@@ -175,11 +174,10 @@
             >
                 <i class="fa-brands fa-medium"></i>
             </a>
-
+ 
         </div>
-
+ 
     </div>
-
+ 
 </body>
 </html>
-```

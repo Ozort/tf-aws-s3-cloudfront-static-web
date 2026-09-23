@@ -1,9 +1,15 @@
 variable "bucket_name" {
-    description = "My s3 bucket"
-  default = "zort-bucket-505"
+  description = "Name of the S3 bucket to host the website."
+  type        = string
 }
 
 variable "website_index_document" {
   description = "This is the website index document"
-  default = "index.html"
+  type        = string
+  default     = "index.html"
+}
+
+variable "aws_region" {
+  description = "AWS region to deploy the S3 bucket into"
+  type        = string
 }
