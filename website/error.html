@@ -1,0 +1,137 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Page Not Found | Abu Bobby Ibrahim</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: #ffffff;
+            color: #111111;
+
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        .error-container {
+            padding: 30px;
+        }
+
+        .error-code {
+            font-size: 120px;
+            font-weight: 800;
+            letter-spacing: -8px;
+
+            animation: float 3s ease-in-out infinite;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin: 10px 0 15px;
+        }
+
+        p {
+            color: #666;
+            font-size: 17px;
+            margin-bottom: 30px;
+        }
+
+        .home-button {
+            display: inline-block;
+
+            padding: 13px 25px;
+
+            background: #111111;
+            color: #ffffff;
+
+            text-decoration: none;
+            border-radius: 30px;
+
+            font-size: 15px;
+
+            transition: all 0.3s ease;
+        }
+
+        .home-button:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .footer {
+            margin-top: 45px;
+            font-size: 13px;
+            color: #999;
+        }
+
+        @media (max-width: 500px) {
+            .error-code {
+                font-size: 80px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="error-container">
+
+        <div class="error-code">
+            404
+        </div>
+
+        <h1>Page Not Found</h1>
+
+        <p>
+            Sorry, the page you're looking for doesn't exist
+            or may have been moved.
+        </p>
+
+        <a href="index.html" class="home-button">
+            ← Back Home
+        </a>
+
+        <div class="footer">
+            © 2026 Abu Bobby Ibrahim
+        </div>
+
+    </div>
+
+</body>
+</html>
+```
